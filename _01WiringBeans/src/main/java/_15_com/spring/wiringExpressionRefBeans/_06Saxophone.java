@@ -1,8 +1,8 @@
 package _15_com.spring.wiringExpressionRefBeans;
 
-public class _04Saxophone implements _02Instrument {
+public class _06Saxophone implements _02Instrument {
 
-	private _04Saxophone() {
+	private _06Saxophone() {
 		super();
 	}
 
@@ -10,4 +10,7 @@ public class _04Saxophone implements _02Instrument {
 		System.out.println("Rhythm of Saxophone is TOOT TOOT TOOT $$$");
 	}
 
+	public String playWhistle() {
+		return "Phw Pwe Prr ###";
+	}
 }
