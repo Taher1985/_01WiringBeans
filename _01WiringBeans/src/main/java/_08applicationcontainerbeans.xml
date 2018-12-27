@@ -8,12 +8,12 @@
 		http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-3.0.xsd
 		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.0.xsd">
 
-	<bean id="juggler" class="_08_com.spring.injectingObjRefWithProperty._02Juggler">
-		<property name="instrumentalist" ref="instrumentalist" />
+	<bean id="juggler" class="_08_com.spring.injectingObjRefWithProperty._03Juggler">
+		<property name="instrument" ref="guitar" />
 	</bean>
 	
-	<bean id="instrumentalist" class="_08_com.spring.injectingObjRefWithProperty._03Instrumentalist">
-		<property name="isntrument" value="Piano"></property>
-	</bean>
+	<bean id="piano" class="_08_com.spring.injectingObjRefWithProperty._04Piano"/>
+
+	<bean id="guitar" class="_08_com.spring.injectingObjRefWithProperty._05Guitar"/>
 
 </beans>
