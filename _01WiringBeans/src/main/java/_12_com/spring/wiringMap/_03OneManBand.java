@@ -14,9 +14,9 @@ public class _03OneManBand implements _01Performer {
 	@Override
 	public void perform() {
 		for (_02Instrument key : collectionOfInstruments.keySet()) {
-			System.out.print("Value is " + collectionOfInstruments.get(key));
-			System.out.print(" So Playing ");
 			key.play();
+			System.out.print(" is being played by " + collectionOfInstruments.get(key));
+			System.out.println();
 		}
 	}
 

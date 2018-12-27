@@ -7,7 +7,7 @@ public class _07Saxophone implements _02Instrument {
 	}
 
 	public void play() {
-		System.out.println("Rhythm of Saxophone is TOOT TOOT TOOT $$$");
+		System.out.print("Rhythm is TOOT TOOT TOOT $$$");
 	}
 
 }

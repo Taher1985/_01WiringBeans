@@ -7,7 +7,7 @@ public class _05Guitar implements _02Instrument {
 	}
 
 	public void play() {
-		System.out.println("Rhyhtm of Guitar is TING TUNG TONG $$$");
+		System.out.print("Rhyhtm is TING TUNG TONG $$$");
 	}
 
 }

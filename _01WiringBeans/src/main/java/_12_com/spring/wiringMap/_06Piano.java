@@ -7,6 +7,6 @@ public class _06Piano implements _02Instrument {
 	}
 
 	public void play() {
-		System.out.println("Rhythm of Piano is POMM POMM POMM $$$");
+		System.out.print("Rhythm is POMM POMM POMM $$$");
 	}
 }
