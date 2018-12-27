@@ -1,6 +1,6 @@
 package _15_com.spring.wiringExpressionRefBeans;
 
-public class _03OneManBand implements _01Performer {
+public class _03OneManBandRefBeans implements _01Performer {
 
 	private _02Instrument instrument;
 
