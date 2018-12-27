@@ -1,4 +1,4 @@
-package _01_com.spring.declaringbeans;
+package _01_com.spring.declaringSimpleBeans;
 
 public class Juggler implements Performer {
 

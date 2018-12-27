@@ -1,4 +1,4 @@
-package _01_com.spring.declaringbeans;
+package _01_com.spring.declaringSimpleBeans;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
