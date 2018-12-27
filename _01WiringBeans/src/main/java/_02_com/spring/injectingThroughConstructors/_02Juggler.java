@@ -1,14 +1,14 @@
 package _02_com.spring.injectingThroughConstructors;
 
-public class Juggler implements Performer {
+public class _02Juggler implements _01Performer {
 
 	private int beanBag = 15;
 
-	public Juggler() {
+	public _02Juggler() {
 		super();
 	}
 
-	public Juggler(int beanBag) {
+	public _02Juggler(int beanBag) {
 		super();
 		this.beanBag = beanBag;
 	}
