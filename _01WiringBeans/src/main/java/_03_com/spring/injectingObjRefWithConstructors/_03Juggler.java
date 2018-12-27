@@ -1,16 +1,14 @@
 package _03_com.spring.injectingObjRefWithConstructors;
 
-public class Juggler implements Performer {
+public class _03Juggler implements _01Performer {
 
 	private int beanBag = 15;
 
-	private Poem poem;
-
-	public Juggler() {
+	public _03Juggler() {
 		super();
 	}
 
-	public Juggler(int beanBag) {
+	public _03Juggler(int beanBag) {
 		super();
 		this.beanBag = beanBag;
 	}
@@ -18,7 +16,6 @@ public class Juggler implements Performer {
 	@Override
 	public void perform() {
 		System.out.println("Juggling " + beanBag + " BeanBags");
-		poem.recite();
 	}
 
 }

@@ -1,6 +1,6 @@
 package _03_com.spring.injectingObjRefWithConstructors;
 
-public class Tonnet implements Poem {
+public class _06Tonnet implements _02Poem {
 
 	private String[] lines = { "Poem4,", "Poem5,", "Poem6" };
 

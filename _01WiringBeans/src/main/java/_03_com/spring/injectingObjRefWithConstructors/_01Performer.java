@@ -1,6 +1,6 @@
 package _03_com.spring.injectingObjRefWithConstructors;
 
-public interface Performer {
+public interface _01Performer {
 
 	void perform();
 

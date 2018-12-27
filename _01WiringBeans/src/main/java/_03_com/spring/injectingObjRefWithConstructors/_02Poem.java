@@ -1,6 +1,6 @@
 package _03_com.spring.injectingObjRefWithConstructors;
 
-public interface Poem {
+public interface _02Poem {
 
 	void recite();
 }

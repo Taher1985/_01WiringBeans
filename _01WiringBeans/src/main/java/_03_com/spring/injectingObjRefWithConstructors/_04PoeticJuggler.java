@@ -1,15 +1,15 @@
 package _03_com.spring.injectingObjRefWithConstructors;
 
-public class PoeticJuggler extends Juggler {
+public class _04PoeticJuggler extends _03Juggler {
 
-	private Poem poem;
+	private _02Poem poem;
 
-	public PoeticJuggler(Poem poem) {
+	public _04PoeticJuggler(_02Poem poem) {
 		super();
 		this.poem = poem;
 	}
 
-	public PoeticJuggler(int beanBags, Poem poem) {
+	public _04PoeticJuggler(int beanBags, _02Poem poem) {
 		super(beanBags);
 		this.poem = poem;
 	}
