@@ -1,4 +1,4 @@
-package _01_com.spring.declaringSimpleBeans;
+package _03_com.spring.injectingObjRefWithConstructors;
 
 public interface Performer {
 

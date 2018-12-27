@@ -1,8 +1,10 @@
-package _01_com.spring.declaringSimpleBeans;
+package _03_com.spring.injectingObjRefWithConstructors;
 
 public class Juggler implements Performer {
 
 	private int beanBag = 15;
+
+	private Poem poem;
 
 	public Juggler() {
 		super();
@@ -15,7 +17,8 @@ public class Juggler implements Performer {
 
 	@Override
 	public void perform() {
-		System.out.println("Juggling "+ beanBag + " BeanBags");
+		System.out.println("Juggling " + beanBag + " BeanBags");
+		poem.recite();
 	}
 
 }
